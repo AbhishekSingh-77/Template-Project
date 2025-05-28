@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-X-MPPLE</title>
+
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR SECTION START -->
+    <header>
+        <nav class="navbar navbar-expand-lg rounded-3 fixed-top bg-primary">
+            <div class="container">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop">
+                    <img src="./assets/img/logo.jpeg" alt="logo" class="img-thumbnail" height="50px" width="55px">
+                </button>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav me-auto ms-lg-5 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#aboutus">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#ourteam">OUR TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#getfreetempelate">GET FREE TEMPELATES !</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex m-2 gap-3" role="search">
+                        <button class="btn btn-primary border border-white">
+                            <a href="./SIGN_IN.html" target="_blank" class="text-decoration-none text-white fw-bold">
+                                SIGN IN
+                            </a>
+                        </button>
+                        <button class="btn btn-primary border border-white">
+                            <a href="./SIGN_UP.html" target="_blank" class="text-decoration-none text-white fw-bold">
+                                SIGN UP
+                            </a>
+                        </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- OFF CANVAS SECTION -->
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bolder" id="staticBackdropLabel">'E-X-MPPLE'- A Website Tempelate</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body my-3">
+            <div>
+                <img src="./assets/img/logo.jpeg" alt="logo" class="rounded mx-auto d-block pb-3" height="150px"
+                    width="150px" title="LOGO">
+                <p class="txt fw-bold">This website is designed using HTML, CSS, and
+                    Bootstrap to ensure a modern and professional
+                    appearance. </p>
+                <p class="txt fw-bold">It features a fully responsive layout that
+                    adapts seamlessly to all screen sizes, providing an
+                    optimal user experience on any device.</p>
+                <p class="txt fw-bold">Note: All links and buttons only in the
+                    navigation bar are fully functional.</p>
+            </div>
+        </div>
+    </div>
+    <!-- // OFF CANVAS SECTION -->
+    <!-- NAVBAR SECTION END -->
+
+    <!-- HOME SECTION START -->
+    <section id="home">
+        <div id="carouselDark" class="carousel carousel-dark slide mt-5 pt-4 " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- HOME SECTION END -->
+
+    <!-- ABOUT US SECTION START -->
+    <section id="aboutus" class="full-height">
+        <div class="container col-12 my-5">
+            <h2 class="home-heading text-center pt-5 pb-2">ABOUT US</h2>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga doloribus iusto quo, nam quas odit
+                necessitatibus velit repellendus voluptate possimus deleniti consequatur, provident eius numquam vero
+                itaque nemo maiores explicabo!
+            </p>
+            <div class="row g-0 bg-warning position-relative">
+                <div class="col-md-4 mb-md-0 p-md-4">
+                    <img src="./assets/img/aboutus.jpeg" class="img-fluid rounded-4" alt="About US">
+                </div>
+                <div class="col-md-8 p-4 ps-md-0">
+                    <h4 class="mt-0">Our Mission</h4>
+                    <p class="txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis autem itaque rerum numquam
+                        asperiores similique nostrum, praesentium ipsum dolore veniam vero reprehenderit labore nisi
+                        explicabo veritatis voluptatibus alias. Asperiores quidem corrupti assumenda maiores dolor.
+                        Repudiandae enim sed corporis perspiciatis debitis deleniti minima! Eaque, reprehenderit
+                        dolores!</p>
+                    <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rem itaque necessitatibus,
+                        minus aspernatur iusto culpa maiores aliquam sapiente possimus esse in beatae nisi recusandae at
+                        reiciendis vel neque mollitia?</p>
+                    <a href="#" class="text-dark fw-bolder">Know More....</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ABOUT US SECTION END -->
+
+    <!-- OUR TEAM SECTION START -->
+    <section id="ourteam" class="full-height">
+        <div class="container col-12 my-5">
+            <h2 class="text-center pt-5">EXPERIENCED AND
+                PROFESSIONAL TEAM</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae cumque
+                explicaboerror.</p>
+            <div class="d-flex py-2 justify-around">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3 border border-3 border-info">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/person.jpeg"
+                                        class="img-fluid rounded-start border border-info" alt="profile-pic1"
+                                        width="150px" height="150px">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Abhishek Singh</h5>
+                                        <p class="card-text">
+                                            <small class="text-dark fw-bold text-decoration-underline">
+                                                Web-Developer
+                                            </small>
+                                        </p>
+                                        <p class="card-text txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nesciunt hic facilis accusamus quis harum modi.</p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3 border border-3 border-warning">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/person.jpeg"
+                                        class="img-fluid rounded-start border border-warning" alt="profile-pic1"
+                                        width="150px" height="150px">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rajnish Kumar</h5>
+                                        <p class="card-text">
+                                            <small class="text-dark fw-bold text-decoration-underline">
+                                                Web-Designer
+                                            </small>
+                                        </p>
+                                        <p class="card-text txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nesciunt hic facilis accusamus quis harum modi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3 border border-3 border-success">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/person.jpeg"
+                                        class="img-fluid rounded-start border border-success" alt="profile-pic1"
+                                        width="150px" height="150px">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Satyam Thakur</h5>
+                                        <p class="card-text">
+                                            <small class="text-dark fw-bold text-decoration-underline">
+                                                Front-End Developer
+                                            </small></p>
+                                        <p class="card-text txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nesciunt hic facilis accusamus quis harum modi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3 border border-primary border-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/person.jpeg"
+                                        class="img-fluid rounded-start border border-primary" alt="profile-pic1"
+                                        width="150px" height="150px">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rajveer Sharma</h5>
+                                        <p class="card-text">
+                                            <small class="text-dark fw-bold text-decoration-underline">
+                                                Back-End Developer
+                                            </small></p>
+                                        <p class="card-text txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nesciunt hic facilis accusamus quis harum modi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- OUR TEAM SECTION END -->
+
+    <!-- GET FREE TEMPELATE SECTION START -->
+    <section id="getfreetempelate" class="full-height">
+        <div class="container col-12 my-5">
+            <h2 class="home-heading text-center pt-5">FREE TEMPELATES..!</h2>
+            <p class="home-sub-heading text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe eos dolorem ipsum magnam illum.
+            </p>
+            <div class="d-flex py-2 justify-around">
+                <div class="row">
+                    <div class="col-md-4 py-2">
+                        <div class="card bg-info">
+                            <img src="./assets/img/table.jpeg" class="card-img-top" alt="TABLE" height="200px"
+                                width="200px">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">TABLE</h5>
+                                <p class="card-text txt">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary disabled">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-2">
+                        <div class="card bg-warning">
+                            <img src="./assets/img/form.jpeg" class="card-img-top" alt="FORM" height="200px"
+                                width="200px">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">LOG IN</h5>
+                                <p class="card-text txt">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary disabled">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-2">
+                        <div class="card bg-light">
+                            <img src="./assets/img/sign_in_up.jpeg" class="card-img-top" alt="SIGN IN / SIGN UP"
+                                height="200px" width="200px">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">FORM</h5>
+                                <p class="card-text txt">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark disabled">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET FREE TEMPELATE SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="py-4 px-lg-5">
+        <div class="container">
+            <div class="row gy-4 justify-content-between">
+                <div class="col-auto">
+                    <h6 class="mb-0">Copyright text goes here.</h6>
+                </div>
+                <div class="col-auto">
+                    <h6 class="mb-0"><i class="fa-solid fa-location-dot"></i> Company Location</h6>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links gap-3">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER SECTION END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
